@@ -8,10 +8,12 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 import { HeaderComponent } from './component/header/header.component';
 import { MainComponent } from './component/main/main.component';
 import { SectionComponent } from './component/section/section.component';
+import { SectionFormComponent } from './component/section-form/section-form.component';
 
 
 @NgModule({
@@ -19,7 +21,8 @@ import { SectionComponent } from './component/section/section.component';
     AppComponent,
     HeaderComponent,
     MainComponent,
-    SectionComponent
+    SectionComponent,
+    SectionFormComponent
   ],
   
   imports: [
@@ -28,7 +31,8 @@ import { SectionComponent } from './component/section/section.component';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    MatFormFieldModule
   ],
   
   providers: [],
