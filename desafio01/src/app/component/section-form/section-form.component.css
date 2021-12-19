@@ -1,0 +1,21 @@
+/* Tamanho das Labels */
+
+.form-field label{
+    font-size: 14px;
+}
+
+/* Configuração do botão */
+.btn-form {
+    background-color: var(--success);
+    width: 304px;
+    height: 60px;
+}
+
+.btn-form:hover {
+    background-color: var(--success-hover);
+}
+
+.btn-form:active {
+    background-color: var(--success-active);
+}
+
