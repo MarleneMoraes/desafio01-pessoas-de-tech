@@ -1,0 +1,23 @@
+/* Posicionamento e estilização dos elementos do header*/
+.header {
+    background: linear-gradient(180deg, #EE5253 0%, #D92223 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Ícones do header */
+.social-media i {
+    margin-right: 20px;
+}
+
+/* Definições de fonte MeuFreela */
+.logo {
+    font: normal bold Roboto;
+}
+
+/* Tamanho dos elementos do header */
+.logo, 
+.fab {
+    font-size: 30px;
+    line-height: 35px;
+}

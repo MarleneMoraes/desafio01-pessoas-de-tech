@@ -1,0 +1,22 @@
+:root {
+    --accent: #EE5253;
+    --accent-hover: #D92223;
+    --accent-activate: #E98787;
+    --sucess: #10AC84;
+    --sucess-hover: #109776;
+    --sucess-activate: #96c9bc;
+    
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    width: 100%;
+    height: 100vh;
+    font-family: Roboto, sans-serif; 
+}
