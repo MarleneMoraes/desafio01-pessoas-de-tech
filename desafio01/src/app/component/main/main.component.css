@@ -1,0 +1,33 @@
+/* Foto de fundo */
+#main {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),  url("../../../assets/section1_studiodev.svg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%; 
+}
+
+/* Configuração de texto */
+.main-text {
+    color: var(--off-white);
+}
+
+.main-text h1,
+.main-text h2 {
+    font-weight: bold;
+}
+
+
+/* Configuração do botão */
+.btn-reunion {
+    background-color: var(--accent);
+    width: 290px;
+    height: 60px;
+}
+
+.btn-reunion:hover {
+    background-color: var(--accent-hover);
+}
+
+.btn-reunion:active {
+    background-color: var(--accent-active);
+}

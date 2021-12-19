@@ -1,18 +1,22 @@
 /* Posicionamento e estilização dos elementos do header*/
 .header {
-    background: linear-gradient(180deg, #EE5253 0%, #D92223 100%);
+    background: linear-gradient(180deg, var(--accent) 0%, var(--accent-hover) 100%);
     display: flex;
     justify-content: space-between;
 }
 
-/* Ícones do header */
-.social-media i {
-    margin-right: 20px;
+h1 {
+    font-weight: bold;
 }
 
-/* Definições de fonte MeuFreela */
-.logo {
-    font: normal bold Roboto;
+/* Ícones do header */
+.fab {
+    margin-right: 20px;
+    color: var(--off-white);
+}
+
+.fab:hover{
+    color: var(--off-white-hover);
 }
 
 /* Tamanho dos elementos do header */
