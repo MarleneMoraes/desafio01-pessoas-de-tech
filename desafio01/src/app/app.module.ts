@@ -11,13 +11,15 @@ import { MatButtonModule } from '@angular/material/button';
 
 import { HeaderComponent } from './component/header/header.component';
 import { MainComponent } from './component/main/main.component';
+import { SectionComponent } from './component/section/section.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MainComponent
+    MainComponent,
+    SectionComponent
   ],
   
   imports: [
