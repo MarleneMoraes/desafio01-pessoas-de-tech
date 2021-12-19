@@ -14,6 +14,7 @@ import { HeaderComponent } from './component/header/header.component';
 import { MainComponent } from './component/main/main.component';
 import { SectionComponent } from './component/section/section.component';
 import { SectionFormComponent } from './component/section-form/section-form.component';
+import { FooterComponent } from './component/footer/footer.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { SectionFormComponent } from './component/section-form/section-form.comp
     HeaderComponent,
     MainComponent,
     SectionComponent,
-    SectionFormComponent
+    SectionFormComponent,
+    FooterComponent
   ],
   
   imports: [
