@@ -19,6 +19,20 @@ form {
     min-width: 30%;
 }
 
+/* Responsividade do Formulário */
+
+@media (max-width:1400px) {
+    .form-item {
+        width: 40%;
+    }
+}
+
+@media (max-width:650px) {
+    .form-item {
+        width: 100%;
+    }
+}
+
 /* Efeitos de cor do botão */
 .btn-form {
     background-color: var(--success);
