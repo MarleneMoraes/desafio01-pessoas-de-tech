@@ -1,4 +1,4 @@
-
+/* Posicionamento de elementos */
 #section-info {
     position: relative;
 }
@@ -13,11 +13,21 @@
     width: 50%;
 }
 
+@media (max-width:1000px) {
+    .section-text {
+        width: 100%;
+    }
+}
+
 .section-text h1 {
     font: normal bold 3.125rem Roboto;
 }
 
+.section-text p {
+    line-height: 30px;
+}
 
+/* Efeito do footer da seção */
 #section-info::before {
     content: '';
     position: absolute;
