@@ -6,14 +6,23 @@
 /* Posicionamento de elementos */
 .form-content {
     display: block;
+    width: 75%;
 }
 
-
-/* Configuração do botão */
+/* Configuração de formulário */
+.form-control, 
 .btn-form {
-    background-color: var(--success);
     width: 304px;
     height: 60px;
+}
+
+.mat-form-field {
+    color: black;
+}
+
+/* Efeitos de cor do botão */
+.btn-form {
+    background-color: var(--success);
 }
 
 .btn-form:hover {
