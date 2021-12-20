@@ -1,3 +1,4 @@
+/* Variáveis de cores */
 :root {
     --accent: #EE5253;
     --accent-hover: #D92223;
@@ -10,6 +11,8 @@
     --black-dark:#000000;
 }
 
+/* Configurações gerais */
+
 * {
     margin: 0;
     padding: 0;
@@ -21,4 +24,25 @@ body {
     height: 100vh;
     background-color: #FBFBFB;
     font-family: Roboto, sans-serif; 
+}
+
+/* Posição dos elementos no centro das seções */
+.section-content,
+#form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+/* Responsividade das seções */
+@media (max-width: 768px) {
+    .section-content,
+    #form {
+    justify-content:flex-start;
+    align-items: flex-start;
+    padding: 35px;
+}
 }
