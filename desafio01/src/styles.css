@@ -26,6 +26,10 @@ body {
     font-family: Roboto, sans-serif; 
 }
 
+p {
+    font: normal 1.375rem Roboto;
+}
+
 /* Posição dos elementos no centro das seções */
 .section-content,
 #form {
@@ -35,14 +39,4 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px;
-}
-
-/* Responsividade das seções */
-@media (max-width: 768px) {
-    .section-content,
-    #form {
-    justify-content:flex-start;
-    align-items: flex-start;
-    padding: 35px;
-}
 }

@@ -1,6 +1,12 @@
+/* Configurações de texto */
+.form-text h1 {
+    font: normal bold 3.125rem Roboto;
+}
 
-/* Tamanho das Labels */
-
+/* Posicionamento de elementos */
+.form-content {
+    display: block;
+}
 
 
 /* Configuração do botão */
