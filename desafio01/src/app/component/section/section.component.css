@@ -1,10 +1,15 @@
-.section-content {
-    line-height: middle;
 
+#section-info {
+    position: relative;
+}
+.section-content{
+    position: relative;
+    max-width: 1440px;
 }
 
 .section-text {
-    width: 40%;
+    padding: 40px;
+    width: 50%;
 }
 
 .section-text h1 {
@@ -15,11 +20,16 @@
     font: normal 1.375rem Roboto;
 }
 
-.section-img img {
-    max-width: 408px;
-    max-height: 466px;
-}
-
-.section-footer {
+#section-info::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 120px;
+    background-color: var(--off-white-hover);
+    clip-path: polygon(0 34%, 100% 0, 100% 100%, 0% 100%);
     z-index: 999;
 }
+
+
