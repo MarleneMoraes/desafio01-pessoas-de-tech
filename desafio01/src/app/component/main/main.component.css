@@ -34,7 +34,8 @@
 /* Configuração do botão */
 .btn-reunion {
     background-color: var(--accent);
-    max-width: 290px;
+    color: var(--off-white);
+    width: 290px;
     height: 60px;
     font-size: 1.375rem;
 }

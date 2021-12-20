@@ -9,13 +9,13 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatInputModule } from '@angular/material/input';
-import { MatGridListModule } from '@angular/material/grid-list';
 
 import { HeaderComponent } from './component/header/header.component';
 import { MainComponent } from './component/main/main.component';
 import { SectionComponent } from './component/section/section.component';
 import { SectionFormComponent } from './component/section-form/section-form.component';
 import { FooterComponent } from './component/footer/footer.component';
+
 
 
 @NgModule({
@@ -35,8 +35,7 @@ import { FooterComponent } from './component/footer/footer.component';
     MatToolbarModule,
     MatIconModule,
     MatButtonModule,
-    MatInputModule,
-    MatGridListModule
+    MatInputModule
   ],
   
   providers: [],
