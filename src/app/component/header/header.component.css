@@ -1,0 +1,28 @@
+/* Posicionamento e estilização dos elementos do header*/
+.header {
+    background: linear-gradient(180deg, var(--accent) 0%, var(--accent-hover) 100%);
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-weight: bold;
+    color: var(--off-white);
+}
+
+/* Ícones do header */
+.fab {
+    margin-right: 20px;
+    color: var(--off-white);
+}
+
+.fab:hover{
+    color: var(--off-white-hover);
+}
+
+/* Tamanho dos elementos do header */
+.logo, 
+.fab {
+    font-size: 30px;
+    line-height: 35px;
+}

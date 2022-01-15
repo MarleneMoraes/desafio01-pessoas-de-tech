@@ -1,0 +1,52 @@
+/* Configurações de texto */
+.form-text h1 {
+    font: normal bold 3.125rem Roboto;
+}
+
+/* Posicionamento de elementos */
+.form-content {
+    display: block;
+    width: 75%;
+}
+form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Configuração de formulário */
+.form-item {
+    min-width: 30%;
+}
+
+/* Responsividade do Formulário */
+
+@media (max-width:1400px) {
+    .form-item {
+        width: 40%;
+    }
+}
+
+@media (max-width:650px) {
+    .form-item {
+        width: 100%;
+    }
+}
+
+/* Efeitos de cor do botão */
+.btn-form {
+    background-color: var(--success);
+    color: var(--off-white);
+    width: 304px;
+    height: 50px;
+    font-size: 1.375rem;
+}
+
+.btn-form:hover {
+    background-color: var(--success-hover);
+}
+
+.btn-form:active {
+    background-color: var(--success-active);
+}
+

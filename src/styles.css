@@ -1,0 +1,42 @@
+/* Variáveis de cores */
+:root {
+    --accent: #EE5253;
+    --accent-hover: #D92223;
+    --accent-active: #E98787;
+    --success: #10AC84;
+    --success-hover: #109776;
+    --success-active: #96c9bc;
+    --off-white:#ffffff;
+    --off-white-hover: #eaeaea;
+    --black-dark:#000000;
+}
+
+/* Configurações gerais */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    width: 100%;
+    height: 100vh;
+    background-color: #FBFBFB;
+    font-family: Roboto, sans-serif; 
+}
+
+p {
+    font: normal 1.375rem Roboto;
+}
+
+/* Posição dos elementos no centro das seções */
+.section-content,
+#form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}

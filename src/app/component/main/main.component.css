@@ -1,0 +1,62 @@
+/* Foto de fundo */
+#main {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),  url("../../../assets/section1_studiodev.svg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 93vh; 
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Configuração de texto */
+.main-text {
+    color: var(--off-white);
+    width: 60%;
+    
+}
+
+.main-text h1 {
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 5.875rem;
+    margin: 40px 0;
+}
+
+.main-text h2 {
+    font-size: 1.875rem;
+}
+
+/* Responsividade */
+@media (max-width:1000px) {
+    .main-text {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .main-text h1 {
+        font-size: 3.75rem;
+        line-height: 3.875rem;
+    }
+}
+
+
+/* Configuração do botão */
+.btn-reunion {
+    background-color: var(--accent);
+    color: var(--off-white);
+    width: 290px;
+    height: 60px;
+    font-size: 1.375rem;
+}
+
+.btn-reunion:hover {
+    background-color: var(--accent-hover);
+}
+
+.btn-reunion:active {
+    background-color: var(--accent-active);
+}
